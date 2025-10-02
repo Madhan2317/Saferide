@@ -1,31 +1,11 @@
-# Core
 streamlit
 torch
 torchvision
 torchaudio
-ultralytics
-
-# Database
+ultralytics>=8.3.0
 psycopg2-binary
-
-# AWS + Cloud
 boto3
 python-dotenv
-
-# PDF & Reports
 reportlab
-
-# Email
-smtplib  # comes with Python, no need to install
-email-validator
-
-# RAG + Embeddings
 sentence-transformers
-faiss-cpu
-
-# Chatbot / LLM
-ollama
-
-# Utils
-opencv-python
-requests
+faiss-cpu   # use CPU version (works fine unless you configure GPU FAISS separately)
