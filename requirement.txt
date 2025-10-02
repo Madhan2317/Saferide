@@ -1,11 +1,11 @@
-streamlit
-torch
-torchvision
-torchaudio
-ultralytics>=8.3.0
-psycopg2-binary
-boto3
-python-dotenv
-reportlab
-sentence-transformers
-faiss-cpu   # use CPU version (works fine unless you configure GPU FAISS separately)
+streamlit==1.36.0
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+ultralytics==8.3.0
+psycopg2-binary==2.9.9
+boto3==1.34.34
+python-dotenv==1.0.1
+reportlab==4.2.2
+sentence-transformers==2.6.1
+faiss-cpu==1.7.4
