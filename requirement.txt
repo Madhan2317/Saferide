@@ -1,0 +1,31 @@
+# Core
+streamlit
+torch
+torchvision
+torchaudio
+ultralytics
+
+# Database
+psycopg2-binary
+
+# AWS + Cloud
+boto3
+python-dotenv
+
+# PDF & Reports
+reportlab
+
+# Email
+smtplib  # comes with Python, no need to install
+email-validator
+
+# RAG + Embeddings
+sentence-transformers
+faiss-cpu
+
+# Chatbot / LLM
+ollama
+
+# Utils
+opencv-python
+requests
