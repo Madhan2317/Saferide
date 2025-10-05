@@ -1,8 +1,5 @@
 # CPU-compatible PyTorch (installed via index-url)
 streamlit==1.50.0
-torch==2.8.0
-torchvision==0.23.0
-torchaudio==2.8.0
 ultralytics==8.3.204
 boto3==1.40.43
 psycopg2-binary==2.9.10
@@ -10,3 +7,4 @@ python-dotenv==1.1.1
 reportlab==4.4.4
 requests==2.32.3
 Pillow==11.0.0
+
