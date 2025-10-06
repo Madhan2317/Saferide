@@ -89,7 +89,7 @@ def upload_to_s3(local_path, key, metadata_dict=None, content_type=None):
     return url
 
 # -------------------- YOLO MODEL --------------------
-MODEL_PATH = r"D:\MDTE21\FINAL PROJECT\runs\train\helmet_accident_yolov8\weights\best.pt"
+MODEL_PATH = "/home/ubuntu/Saferide/models/best.pt"
 OUTPUT_DIR = "runs/streamlit_results"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 device = 0 if torch.cuda.is_available() else "cpu"
@@ -298,3 +298,4 @@ elif mode == "🎥 Live Webcam":
                 st.error("🚨 Accident detected! Telegram alert sent.")
 
     cap.release()
+
